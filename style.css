@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #d6ccc2;
+}
+.contaner{
+    width: 70%;
+    height: auto;
+    padding: 40px;
+    margin: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    background-color: #f5ebe0;
+}
+.contant{
+    text-align: center;
+}
+p{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    color: rgb(15, 143, 255);
+    text-transform: capitalize;
+    text-align: center;
+}
+label{
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 16px;
+    text-transform: capitalize;
+}
+input{
+    width: 60%;
+    height: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid wheat;
+}
+button{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid wheat;
+}
+.show-data{
+    margin-left: 268px;
+    margin-top: 30px;
+}
+.show-data ol li{
+    font-size: 20px;
+    cursor: pointer;
+    margin-bottom: 6px;
+}
+.show-data ol li span{
+    float: right;
+    margin-right: 140px;
+    cursor: pointer;
+}
+.chek{
+    text-decoration: line-through;
+
+}
